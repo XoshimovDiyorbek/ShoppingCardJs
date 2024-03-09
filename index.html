@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    
+    <section class="products">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Malika savdo markazi</h1>
+                </div>
+                
+                <!-- products -->
+                <div class="col-3">
+                    <div class="card">
+                        <div class="product-image">
+                            <img class="w-100" style="height: 200px; object-fit: cover;" src="images/aypon-13.webp" alt="">
+                        </div>
+                        <p class="name">Iphone 13 Pro Max Fax</p>
+                        <p class="price">1500$</p>
+                        <button class="btn btn-success">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- products -->
+                <div class="col-3">
+                    <div class="card">
+                        <div class="product-image">
+                            <img class="w-100" style="height: 200px; object-fit: cover;" src="images/soat.jpg" alt="">
+                        </div>
+                        <p class="name">Iwatch 7</p>
+                        <p class="price">500$</p>
+                        <button class="btn btn-success">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- products -->
+                <div class="col-3">
+                    <div class="card">
+                        <div class="product-image">
+                            <img class="w-100" style="height: 200px; object-fit: cover;" src="images/aypad.webp" alt="">
+                        </div>
+                        <p class="name">IPad Makro</p>
+                        <p class="price">1000$</p>
+                        <button class="btn btn-success">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- products -->
+                <div class="col-3">
+                    <div class="card">
+                        <div class="product-image">
+                            <img class="w-100" style="height: 200px; object-fit: cover;" src="images/mak.jpg" alt="">
+                        </div>
+                        <p class="name">Macbook Pro</p>
+                        <p class="price">3000$</p>
+                        <button class="btn btn-success">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cart-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center my-5">
+                    <h2>Cart:</h2>
+                    <p style="font-size: 18px;">Total: <b class="total">0$</b></p>
+                    <button class="btn btn-warning order">Заказать</button>
+                </div>
+                <!-- cart -->
+                <div class="col-7 mx-auto mb-3">
+                    <div class="cart-wrapper">
+                        <!-- items will be here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="order-layer">
+        <div class="form">
+            <div class="wrap">
+                <h3>Сделать заказ</h3>
+                <div class="close-modal">&times;</div>
+            </div>
+            <input type="text" placeholder="Введите ваше имя">
+            <input type="number" placeholder="Введите номер телефона">
+            <button class="btn btn-primary get">Заказать</button>
+        </div>
+    </div>
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
